@@ -4,23 +4,22 @@
         <attribute name="name" value="Tugas 1"/>
         <attribute name="authors" value="Ariel"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-09-14 11:14:43 AM"/>
+        <attribute name="saved" value="2025-09-15 07:12:50 AM"/>
         <attribute name="created" value="QXJpZWw7TEFQVE9QLVZVNlVPTzZOOzIwMjUtMDktMTM7MDg6MjA6MjEgUE07Mjg4MQ=="/>
-        <attribute name="edited" value="QXJpZWw7TEFQVE9QLVZVNlVPTzZOOzIwMjUtMDktMTQ7MTE6MTQ6NDMgQU07MzsyOTc4"/>
+        <attribute name="edited" value="QXJpZWw7TEFQVE9QLVZVNlVPTzZOOzIwMjUtMDktMTU7MDc6MTI6NTAgQU07NDsyOTgx"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="m, g, h, v, Ek, Ep, Em" type="Real" array="False" size=""/>
             <output expression="&quot;--- Program Menghitung Nilai EP, EK dan EM ---&quot;" newline="True"/>
-            <output expression="&quot;Percepatan Gravitasi (m/s2)&quot;" newline="True"/>
-            <input variable="g"/>
-            <output expression="&quot;Massa Benda (Kg)&quot;" newline="True"/>
+            <output expression="&quot;Massa benda (kg)&quot;" newline="True"/>
             <input variable="m"/>
             <output expression="&quot;Kecepatan Benda (m/s)&quot;" newline="True"/>
             <input variable="v"/>
             <output expression="&quot;Ketinggian Benda (m)&quot;" newline="True"/>
             <input variable="h"/>
+            <assign variable="g" expression="10"/>
             <assign variable="Ek" expression="(m*v*v)/2"/>
             <assign variable="Ep" expression="m*g*h"/>
             <assign variable="Em" expression="Ek+Ep"/>

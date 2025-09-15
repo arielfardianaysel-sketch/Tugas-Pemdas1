@@ -6,12 +6,10 @@ public class Tugas1 {
         Scanner user = new Scanner(System.in);
         System.out.println("--- Program Menghitung Nilai EK, EP dan EM ---");
         //deklarasi
-        double g, m, v, h, Ek, Ep, Em;
-
+        double m, v, h, Ek, Ep, Em;
+        final double g = 10;
 
         //memasukan input
-        System.out.printf("%-30s = ", "Percepatan gravitasi (m/s2)");
-        g = user.nextDouble();
         System.out.printf("%-30s = ", "Massa benda (kg)");
         m = user.nextDouble();
         System.out.printf("%-30s = ", "Kecepatan benda (m/s)");
